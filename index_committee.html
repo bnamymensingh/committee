@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>বিএনএ ময়মনসিংহ জেলা শাখা কমিটি</title>
+    <!-- নিচের CSS কোড লিঙ্ক করুন অথবা <style> ট্যাগের মধ্যে পেস্ট করুন -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<div class="team-section">
+    <h2 class="section-title">বাংলাদেশ নার্সেস এসোসিয়েশন (বিএনএ)</h2>
+    <h3 class="section-subtitle">ময়মনসিংহ জেলা শাখা</h3>
+    
+    <div class="team-grid">
+        <!-- সদস্য ১ -->
+        <div class="team-member-card">
+            <img src="https://ik.imagekit.io/nasirbam/Member%20list/mizan.png?updatedAt=1751960847145" alt="সদস্যের ছবি" class="member-photo">
+            <div class="member-info">
+                <h4 class="member-name">মোঃ মিজানুর রহমান</h4>
+                <p class="member-designation">সভাপতি</p>
+            </div>
+        </div>
+
+        <!-- সদস্য ২ -->
+        <div class="team-member-card">
+            <img src="https://ik.imagekit.io/nasirbam/Member%20list/sohag.png?updatedAt=1751960846991" alt="সদস্যের ছবি" class="member-photo">
+            <div class="member-info">
+                <h4 class="member-name">মোঃ আজহারুল ইসলাম (সোহাগ)</h4>
+                <p class="member-designation">সহ-সভাপতি</p>
+            </div>
+        </div>
+
+        <!-- সদস্য ৩ -->
+        <div class="team-member-card">
+            <img src="https://ik.imagekit.io/nasirbam/Member%20list/anwar.png?updatedAt=1751960846961" alt="সদস্যের ছবি" class="member-photo">
+            <div class="member-info">
+                <h4 class="member-name">মোঃ আনোয়ারুল হক</h4>
+                <p class="member-designation">সাধারণ সম্পাদক</p>
+            </div>
+        </div>
+
+        <!-- সদস্য ৪ -->
+        <div class="team-member-card">
+            <img src="https://ik.imagekit.io/nasirbam/Member%20list/masuma.png?updatedAt=1751960846833" alt="সদস্যের ছবি" class="member-photo">
+            <div class="member-info">
+                <h4 class="member-name">মাসুমা পারভীন</h4>
+                <p class="member-designation">কোষাধ্যক্ষ</p>
+            </div>
+        </div>
+
+        <!-- সদস্য ৫ -->
+        <div class="team-member-card">
+            <img src="https://ik.imagekit.io/nasirbam/Member%20list/ahad.png?updatedAt=1751960846725" alt="সদস্যের ছবি" class="member-photo">
+            <div class="member-info">
+                <h4 class="member-name">মোঃ আব্দুল আহাদ খান</h4>
+                <p class="member-designation">ছাত্র-ছাত্রী বিষয়ক প্রতিনিধি</p>
+            </div>
+        </div>
+
+        <!-- সদস্য ৬ -->
+        <div class="team-member-card">
+            <img src="https://ik.imagekit.io/nasirbam/Member%20list/deepu.png?updatedAt=1751960846717" alt="সদস্যের ছবি" class="member-photo">
+            <div class="member-info">
+                <h4 class="member-name">দীপু রায়</h4>
+                <p class="member-designation">স্বাস্থ্য পরিদর্শক ও মিডওয়াইফারি প্রতিনিধ</p>
+            </div>
+        </div>
+    </div>
+</div>
+<style> /* Google Fonts for better Bengali typography (Optional) */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+}
+
+.team-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.2rem;
+    color: #0056b3; /* BNA Blue Color */
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.section-subtitle {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.team-grid {
+    display: grid;
+    /* This makes the grid responsive */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.team-member-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.member-photo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%; /* Makes the photo circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-top: 25px;
+    border: 4px solid #e0f7fa;
+}
+
+.member-info {
+    padding: 20px;
+}
+
+.member-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #111;
+    margin: 10px 0 5px 0;
+}
+
+.member-designation {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+} 
+  </style>
+</body>
+</html>
